@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -229,6 +229,9 @@ namespace Atividade_01___Teorica
 
                     case 12:
                         //Atividade 12
+                        Console.WriteLine("12) Desenvolva um programa que leia três números inteiros (X, Y e Z) e verifique se o número X é divisível por Y e por Z.O programa deverá apresentar uma das possíveis mensagens:\n O número é divisível por Y e por Z.\n O número é divisível por Y mas não por Z.\n O número é divisível por Z mas não por Y.\n O número não é divisível nem Y nem por Z.");
+                        Console.WriteLine("------------");
+                        Console.WriteLine();
                         int X, Y, Z;
 
                         Console.Write("Digite o valor \"X\": ");
@@ -238,11 +241,11 @@ namespace Atividade_01___Teorica
                         Console.Write("Digite o valor \"Z\": ");
                         Z = int.Parse(Console.ReadLine());
 
-                        if(X % Y == 0 && X % Z == 0)
+                        if (X % Y == 0 && X % Z == 0)
                         {
                             Console.WriteLine("O número é divisível por Y e por Z");
                         }
-                        if(X % Y == 0 && X % Z != 0)
+                        if (X % Y == 0 && X % Z != 0)
                         {
                             Console.WriteLine("O número é divisível por Y mas não por Z.");
                         }
@@ -255,7 +258,7 @@ namespace Atividade_01___Teorica
                             Console.WriteLine("O número não é divisível nem Y nem por Z.");
                         }
                         break;
-                                                
+
                     case 13:
                         //Atividade 13
                         Console.WriteLine("13) O numero 3025 possui a seguinte característica:");
@@ -276,7 +279,7 @@ namespace Atividade_01___Teorica
                         numeroDeQuatroDigitos = double.Parse(Console.ReadLine());
                         numeroDeQuatroDigitosEmString = numeroDeQuatroDigitos.ToString();
 
-                        if(numeroDeQuatroDigitosEmString.Length == 4)
+                        if (numeroDeQuatroDigitosEmString.Length == 4)
                         {
                             divisao2PrimeirosNum = (int)numeroDeQuatroDigitos / 100;
                             multiplicacao = divisao2PrimeirosNum * 100;
@@ -285,9 +288,9 @@ namespace Atividade_01___Teorica
 
                             Console.WriteLine();
 
-                            if (Math.Pow(caracteristica,2) == numeroDeQuatroDigitos)
+                            if (Math.Pow(caracteristica, 2) == numeroDeQuatroDigitos)
                             {
-                                Console.WriteLine("Este numero apresenta aa caracteristica do enunciado");
+                                Console.WriteLine("Este numero apresenta as caracteristica do enunciado");
                             }
                             else
                             {
@@ -348,7 +351,7 @@ namespace Atividade_01___Teorica
                         tipo = int.Parse(Console.ReadLine());
                         Console.WriteLine();
 
-                        switch (tipo) 
+                        switch (tipo)
                         {
                             case 1:
                                 Console.WriteLine("Residencial");
@@ -356,7 +359,7 @@ namespace Atividade_01___Teorica
                                 break;
                             case 2:
                                 Console.WriteLine("Comercial");
-                                if(consumo <= 80)
+                                if (consumo <= 80)
                                 {
                                     Console.WriteLine("Valor da conta {0}", 500.ToString("c"));
                                 }
@@ -393,7 +396,7 @@ namespace Atividade_01___Teorica
                         Console.Write("Digite sua altura: ");
                         alturaM = Double.Parse(Console.ReadLine());
 
-                        pesoIdeal = pesoKG / Math.Pow(alturaM , 2.0);
+                        pesoIdeal = pesoKG / Math.Pow(alturaM, 2.0);
 
                         Console.WriteLine("Seu IMC: {0}", (pesoIdeal).ToString("F"));
                         break;
@@ -412,10 +415,10 @@ namespace Atividade_01___Teorica
                         numeroReal2 = float.Parse(Console.ReadLine());
                         Console.Write("Digite o Terceiro numero: ");
                         numeroReal3 = float.Parse(Console.ReadLine());
-                        
+
                         if (numeroReal1 > numeroReal2 && numeroReal1 > numeroReal3)
                         {
-                            if (numeroReal2> numeroReal3)
+                            if (numeroReal2 > numeroReal3)
                             {
                                 Console.WriteLine(numeroReal1);
                                 Console.WriteLine(numeroReal2);
@@ -478,7 +481,7 @@ namespace Atividade_01___Teorica
 
                         Console.WriteLine();
 
-                        if(quantidadesDeLados == 3)
+                        if (quantidadesDeLados == 3)
                         {
                             Console.WriteLine("Triangulo");
 
@@ -511,7 +514,7 @@ namespace Atividade_01___Teorica
                         else
                         {
                             Console.WriteLine("ERROR");
-                        }                       
+                        }
 
                         break;
 
@@ -521,9 +524,9 @@ namespace Atividade_01___Teorica
                         Console.WriteLine("------------");
                         Console.WriteLine();
 
-                        int menorNumero, salvarMenor = 0, key1 = 0, key2 = 0 ;
+                        int menorNumero, salvarMenor = 0, key1 = 0, key2 = 0;
 
-                        for(int i = 0; i < 5; i++)
+                        for (int i = 0; i < 5; i++)
                         {
                             Console.Write("Digite um valor: ");
                             menorNumero = int.Parse(Console.ReadLine());
@@ -532,12 +535,8 @@ namespace Atividade_01___Teorica
                                 key1 = 1;
                                 salvarMenor = menorNumero;
                             }
-                            else
-                            {
-                                Console.WriteLine("ERRO");
-                            }
                         }
-
+                        Console.WriteLine();
                         Console.WriteLine("O menor numero foi {0}", salvarMenor);
                         break;
 
