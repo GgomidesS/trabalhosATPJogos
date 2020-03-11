@@ -1,0 +1,6 @@
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\bin\Debug\Atividade 01 - Teorica.exe.config
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\bin\Debug\Atividade 01 - Teorica.exe
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\bin\Debug\Atividade 01 - Teorica.pdb
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\obj\Debug\Atividade 01 - Teorica.csprojAssemblyReference.cache
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\obj\Debug\Atividade 01 - Teorica.exe
+C:\Users\ggomi\source\repos\Atividade 01 - Teorica\Atividade 01 - Teorica\obj\Debug\Atividade 01 - Teorica.pdb
