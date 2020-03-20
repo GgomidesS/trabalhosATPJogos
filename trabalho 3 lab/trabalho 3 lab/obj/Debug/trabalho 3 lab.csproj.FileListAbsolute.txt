@@ -1,0 +1,6 @@
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\bin\Debug\trabalho 3 lab.exe.config
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\bin\Debug\trabalho 3 lab.exe
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\bin\Debug\trabalho 3 lab.pdb
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\obj\Debug\trabalho 3 lab.csprojAssemblyReference.cache
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\obj\Debug\trabalho 3 lab.exe
+C:\Users\ggomi\source\repos\trabalho 3 lab\trabalho 3 lab\obj\Debug\trabalho 3 lab.pdb
