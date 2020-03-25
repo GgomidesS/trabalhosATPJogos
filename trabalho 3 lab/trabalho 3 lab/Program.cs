@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,10 +23,24 @@ namespace trabalho_3_lab
                 {
                     case 1:
                         //Atividade 1
-                        int[] vetor = new int[9];
-                        int indice, contador;
+                        //int[] vetor = new int[9];
+                        //int indice;
 
-                        Console.write
+                        //Console.WriteLine("Digite os elementos do veotor");
+                        //for (int i = 0; i < 9; i++)
+                        //{
+                        //    Console.Write("Elemento numero {0}:", i + 1);
+                        //    vetor[i] = int.Parse(Console.ReadLine());
+                        //}
+
+                        //indice = 0;
+                        //Console.WriteLine("Trajetoria: {0}", indice);
+
+                        //do
+                        //{
+                        //    Console.Write(vetor[indice]);
+                        //    indice = vetor[indice];
+                        //} while (indice != 0);
                         break;
                     case 2:
                         //Atividade 2
@@ -34,7 +48,7 @@ namespace trabalho_3_lab
                             homensEntre40e55 = 0, mulheresMenor30SemEsperiencia = 0, menoridadeMulherEsperiencia = 255;
                         char sexo, experiencia;
 
-                        for (int i = 0; i < 5; i++)
+                        for (int i = 0; i < 200; i++)
                         {
                             Console.Write("Digite sua idade: ");
                             idade_ = byte.Parse(Console.ReadLine());
@@ -90,13 +104,13 @@ namespace trabalho_3_lab
 
                         for (int i = 0; i < 10; i++)
                         {
-                            Console.WriteLine("Digite o 10 primeiros numeros separados por \" \"(espaço)");
+                            Console.WriteLine("Digite o 10 primeiros numeros");
                             vetor1[i] = uint.Parse(Console.ReadLine());
                             Console.Clear();
                         }
                         for (int i = 0; i < 10; i++)
                         {
-                            Console.WriteLine("Digite o 10 segundos numeros separados por \" \"(espaço)");
+                            Console.WriteLine("Digite o 10 segundos numeros");
                             vetor2[i] = uint.Parse(Console.ReadLine());
                             Console.Clear();
                         }
@@ -122,9 +136,9 @@ namespace trabalho_3_lab
                         vetor3[18] = vetor2[8];
                         vetor3[19] = vetor2[9];
 
-                        for(int i = 0; i < 20; i++)
+                        foreach (int vet in vetor3)
                         {
-                            Console.WriteLine(vetor3[i]);
+                            Console.WriteLine(vet);
                         }
                         break;
                     case 4:
@@ -156,7 +170,7 @@ namespace trabalho_3_lab
                         char[] vetorC;
                         char letra;
                         string palavra;
-                        int contador = 0;
+                        int contador1 = 0;
 
                         Console.Write("Digite palavra: ");
                         palavra = Console.ReadLine().ToLower();
@@ -169,10 +183,10 @@ namespace trabalho_3_lab
                         {
                             if (vetorC[i] == letra)
                             {
-                                contador++;
+                                contador1++;
                             }
                         }
-                        Console.WriteLine("Existem {0} letra {1} na palavra {2}", contador, letra, palavra);
+                        Console.WriteLine("Existem {0} letra {1} na palavra {2}", contador1, letra, palavra);
                         break;
                     case 6:
                         //Atividade 6
