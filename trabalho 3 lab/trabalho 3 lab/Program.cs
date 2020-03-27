@@ -23,24 +23,21 @@ namespace trabalho_3_lab
                 {
                     case 1:
                         //Atividade 1
-                        //int[] vetor = new int[9];
-                        //int indice;
+                        int[] vetor = new int[9];
+                        int indice = 0;
 
-                        //Console.WriteLine("Digite os elementos do veotor");
-                        //for (int i = 0; i < 9; i++)
-                        //{
-                        //    Console.Write("Elemento numero {0}:", i + 1);
-                        //    vetor[i] = int.Parse(Console.ReadLine());
-                        //}
+                        Console.WriteLine("Digite os elementos do vetor separados por espaço");
+                        string[] vetorGenerico = Console.ReadLine().Split(' ');
+                        for (int i = 0; i < 9; i++)
+                        {
+                            vetor[i] = int.Parse(vetorGenerico[i]);
+                        }
 
-                        //indice = 0;
-                        //Console.WriteLine("Trajetoria: {0}", indice);
-
-                        //do
-                        //{
-                        //    Console.Write(vetor[indice]);
-                        //    indice = vetor[indice];
-                        //} while (indice != 0);
+                        do
+                        {
+                            Console.Write(vetor[indice] + " ");
+                            indice = vetor[indice];
+                        } while (indice != 0);
                         break;
                     case 2:
                         //Atividade 2
@@ -101,6 +98,7 @@ namespace trabalho_3_lab
                         uint[] vetor1 = new uint[10];
                         uint[] vetor2 = new uint[10];
                         uint[] vetor3 = new uint[20];
+                        uint cont = 0;
 
                         for (int i = 0; i < 10; i++)
                         {
@@ -115,31 +113,21 @@ namespace trabalho_3_lab
                             Console.Clear();
                         }
 
-                        vetor3[0] = vetor1[0];
-                        vetor3[1] = vetor1[1];
-                        vetor3[2] = vetor1[2];
-                        vetor3[3] = vetor1[3];
-                        vetor3[4] = vetor1[4];
-                        vetor3[5] = vetor1[5];
-                        vetor3[6] = vetor1[6];
-                        vetor3[7] = vetor1[7];
-                        vetor3[8] = vetor1[8];
-                        vetor3[9] = vetor1[9];
-                        vetor3[10] = vetor2[0];
-                        vetor3[11] = vetor2[1];
-                        vetor3[12] = vetor2[2];
-                        vetor3[13] = vetor2[3];
-                        vetor3[14] = vetor2[4];
-                        vetor3[15] = vetor2[5];
-                        vetor3[16] = vetor2[6];
-                        vetor3[17] = vetor2[7];
-                        vetor3[18] = vetor2[8];
-                        vetor3[19] = vetor2[9];
-
-                        foreach (int vet in vetor3)
+                        for (int i = 0; i < vetor3.Length; i++)
                         {
-                            Console.WriteLine(vet);
+                            if (i < vetor1.Length)
+                            {
+                                Console.WriteLine(vetor3[i] = vetor1[i]);
+                            }
+                            else
+                            {
+                                if (vetor1[i - 10] != vetor2[i - 10])
+                                {
+                                    Console.WriteLine(vetor3[i] = vetor2[i - 10]);
+                                }
+                            }
                         }
+
                         break;
                     case 4:
                         //Atividade 4
