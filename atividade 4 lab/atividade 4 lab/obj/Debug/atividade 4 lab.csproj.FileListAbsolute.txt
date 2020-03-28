@@ -1,0 +1,7 @@
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\bin\Debug\atividade 4 lab.exe.config
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\bin\Debug\atividade 4 lab.exe
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\bin\Debug\atividade 4 lab.pdb
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\obj\Debug\atividade 4 lab.csprojAssemblyReference.cache
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\obj\Debug\atividade 4 lab.csproj.CoreCompileInputs.cache
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\obj\Debug\atividade 4 lab.exe
+C:\Users\ggomi\source\repos\atividade 4 lab\atividade 4 lab\obj\Debug\atividade 4 lab.pdb
