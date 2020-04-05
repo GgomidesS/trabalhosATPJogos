@@ -1,0 +1,7 @@
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\bin\Debug\trabalho 2 teorico.exe.config
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\bin\Debug\trabalho 2 teorico.exe
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\bin\Debug\trabalho 2 teorico.pdb
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\obj\Debug\trabalho 2 teorico.csprojAssemblyReference.cache
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\obj\Debug\trabalho 2 teorico.csproj.CoreCompileInputs.cache
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\obj\Debug\trabalho 2 teorico.exe
+C:\Users\ggomi\source\repos\trabalho 2 teorico\trabalho 2 teorico\obj\Debug\trabalho 2 teorico.pdb
