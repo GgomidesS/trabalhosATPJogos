@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,84 +68,84 @@ namespace jogoDaVelha
                     //condiçoes de vitoiras X
                     if (matrizJogo[0, 0] == 'X' && matrizJogo[0, 1] == 'X' && matrizJogo[0, 2] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[1, 0] == 'X' && matrizJogo[1, 1] == 'X' && matrizJogo[1, 2] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[2, 0] == 'X' && matrizJogo[2, 1] == 'X' && matrizJogo[2, 2] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[0, 0] == 'X' && matrizJogo[1, 0] == 'X' && matrizJogo[2, 0] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[0, 1] == 'X' && matrizJogo[1, 1] == 'X' && matrizJogo[2, 1] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[0, 2] == 'X' && matrizJogo[1, 2] == 'X' && matrizJogo[2, 2] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[0, 0] == 'X' && matrizJogo[1, 1] == 'X' && matrizJogo[2, 2] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
                     if (matrizJogo[0, 2] == 'X' && matrizJogo[1, 1] == 'X' && matrizJogo[2, 0] == 'X')
                     {
-                        Console.WriteLine("Jogador X gamhou");
+                        Console.WriteLine("Jogador X ganhou");
                         break;
                     }
 
                     //condiçoes de vitoiras O
                     if (matrizJogo[0, 0] == 'O' && matrizJogo[0, 1] == 'O' && matrizJogo[0, 2] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[1, 0] == 'O' && matrizJogo[1, 1] == 'O' && matrizJogo[1, 2] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[2, 0] == 'O' && matrizJogo[2, 1] == 'O' && matrizJogo[2, 2] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[0, 0] == 'O' && matrizJogo[1, 0] == 'O' && matrizJogo[2, 0] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[0, 1] == 'O' && matrizJogo[1, 1] == 'O' && matrizJogo[2, 1] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[0, 2] == 'O' && matrizJogo[1, 2] == 'O' && matrizJogo[2, 2] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[0, 0] == 'O' && matrizJogo[1, 1] == 'O' && matrizJogo[2, 2] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
                     if (matrizJogo[0, 2] == 'O' && matrizJogo[1, 1] == 'O' && matrizJogo[2, 0] == 'O')
                     {
-                        Console.WriteLine("Jogador O gamhou");
+                        Console.WriteLine("Jogador O ganhou");
                         break;
                     }
 
@@ -659,7 +659,6 @@ namespace jogoDaVelha
                 continuarJogando = char.Parse(Console.ReadLine().ToLower());
                 Console.Clear();
             } while (continuarJogando == 's');
-            Console.ReadKey();
         }
     }
 }
